@@ -30,7 +30,7 @@ A look at the giants leading the US economy.
 ### 3. Geographic Distribution
 Which states host the most corporate power?
 ![State Distribution](images/state_distribution.png)
-> **Insight:** Texas and California dominate the headquarters landscape for the Top 100 companies.
+> **Insight:** Texas and New York dominate the headquarters landscape for the Top 100 companies.
 
 ## 🏁 Conclusion
 The analysis shows that while retail giants lead in total revenue, technology and healthcare sectors often demonstrate superior operational efficiency. This dataset provides a snapshot of the economic heavyweights in the US as of 2024.

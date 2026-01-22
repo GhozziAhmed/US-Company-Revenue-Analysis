@@ -7,14 +7,12 @@ This project involves **web scraping** the list of the largest companies in the 
 * **Python** (Requests & BeautifulSoup) for web scraping.
 * **Pandas** for data cleaning (handling footnotes, currency conversion, and data types).
 * **Seaborn & Matplotlib** for data visualization.
-* **Sweetviz** for automated EDA reporting.
 
 ## 🧹 Data Cleaning Process
 The raw data from Wikipedia required several cleaning steps:
-1.  **Removing Footnotes:** Used Regex to strip Wikipedia citations like `[1]` or `[a]`.
-2.  **Numeric Conversion:** Converted strings with commas and dollar signs (e.g., `$611,289`) into floats.
-3.  **Handling Percentages:** Stripped `%` symbols from revenue growth and converted them to numeric values.
-4.  **Feature Engineering:** Split the `Headquarters` column into `City` and `State` for geographic analysis.
+1.  **Numeric Conversion:** Converted strings with commas and dollar signs (e.g., `$611,289`) into floats.
+2.  **Handling Percentages:** Stripped `%` symbols from revenue growth and converted them to numeric values.
+3.  **Feature Engineering:** Split the `Headquarters` column into `City` and `State` for geographic analysis.
 
 ## 📊 Key Visualizations
 

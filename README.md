@@ -7,7 +7,6 @@ This project involves **web scraping** the list of the largest companies in the 
 * **Python** (Requests & BeautifulSoup) for web scraping.
 * **Pandas** for data cleaning (handling footnotes, currency conversion, and data types).
 * **Seaborn & Matplotlib** for data visualization.
-* **Sweetviz** for automated EDA reporting.
 
 ## 🧹 Data Cleaning Process
 The raw data from Wikipedia required several cleaning steps:
@@ -31,7 +30,7 @@ This scatter plot highlights how different industries utilize their workforce.
 ### 3. Geographic Distribution of Headquarters
 Which states host the most corporate power?
 ![State Distribution](images/state_distribution.png)
-> **Insight:** Corporate headquarters are highly concentrated in specific hubs, with **Texas**, **California**, and **New York** leading the count.
+> **Insight:** Corporate headquarters are highly concentrated in specific hubs, with **Texas**, **New York**, and **California** leading the count.
 
 ## 🏁 Conclusion
 The analysis shows a clear divide in the Top 100: high-volume retail giants with massive workforces versus high-margin technology and healthcare firms. Geographically, corporate power remains concentrated in coastal and tax-friendly hubs.
